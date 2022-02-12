@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEDEX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Source+Serif+4:wght@300 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div class="pokedex-container">
+        <div class="pokedex__header">
+            <div class="pokedex__header-title">
+                <h1>POKEDEX</h1>
+            </div>
+            <div class="pokedex__header-search">
+                
+                <form action="" id="searchPokemon">
+                    <fieldset>
+                        <label for="" id="searchPokemon">Tipo:</label>
+                            <select class="Tipagem">
+                                <option value="#">Tipagem</option>
+                                <option value="fire">fire</option>
+                                <option value="grass">grass</option>
+                                <option value="electric">electric</option>
+                                <option value="water">water</option>
+                                <option value="ground">ground</option>
+                                <option value="rock">rock</option>
+                                <option value="poison">poison</option>
+                                <option value="bug">bug</option>
+                                <option value="dragon">dragon</option>
+                                <option value="psychic">psychic</option>
+                                <option value="flying">flying</option>
+                                <option value="fighting">fighting</option>
+                                <option value="normal">normal</option>
+                                <option value="Mega Evolução">Mega Evolução</option>
+                            </select>
+                        </fieldset>
+                        
+                    <input type="text" id="pokemon">
+                        <button>
+                            <img src="pokebolll.png" alt="pokeball">
+                        </button>
+
+                </form>
+            </div>
+
+            <div class="pokedex__header-aline">
+                <div class="arrow-left" id="arrow-left"></div>
+                <div class="order" id="textGen">Região 1</div>
+                <div class="arrow-right" id="arrow-right"></div>
+            </div>
+        </div>
+
+        <div class="pokedex__pokemon-content" id="pokemonContent" onclick="exitModal()">
+
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <footer>
+        © 2022 Pokémon. © 1995–2022 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, os nomes dos personagens Pokémon,
+        Nintendo Switch, Nintendo 3DS, Nintendo DS, Wii, Wii U e WiiWare são marcas da Nintendo.
+    </footer>
+</body>
+
+</html>

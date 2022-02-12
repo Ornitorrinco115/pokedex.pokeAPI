@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Serif 4', sem serifa;
+    /*border: 1px solid red ;*/
+}
+
+img{
+    max-width: 100%;
+    margin-right: 20px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+body{
+    background: #c5e1ec;
+	background: -webkit-linear-gradient(to right, #6bc9ee, #79caeb);
+	background: linear-gradient(to right, #79caeb, #7ad6e9);
+}
+
+
+.pokedex__header{
+    background: rgb(23, 32, 48);
+    min-height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   background-image: url(pokedexkalos.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+footer{
+    background-image: url(pokedexkalosfooter.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.pokedex__header-title{
+    color: #000;
+    margin:0 25px 0 10px ;
+    text-align: left ;
+}
+
+.pokedex__header-search{
+    margin: auto;
+}
+
+.pokedex__header-search form{
+    border-color: blue;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pokedex__header-search input{
+    height: 30px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-color: #79caeb;
+}
+
+input#pokemon{
+    background-color: #79caeb;
+
+}
+
+.pokedex__header-search form button{
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.pokedex__header-aline{
+ display: flex;  
+ width: 150px;
+}
+
+.arrow-left{
+    width: 0;
+    height: 0;
+   border-top: 15px solid rgba(255, 0, 0, 0);
+   border-left: 15px solid rgba(49, 173, 18, 0);
+   border-bottom: 15px solid rgba(255, 251, 0, 0);
+   border-right: 15px solid rgb(0, 38, 255);
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.order{
+    margin: auto;
+    padding: 5px;
+    background-color: #79caeb;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.arrow-right{
+    width: 0;
+    height: 0;
+   border-top: 15px solid rgba(255, 0, 0, 0);
+   border-left: 15px solid rgb(0, 25, 248);;
+   border-bottom: 15px solid rgba(255, 251, 0, 0);
+   border-right: 15px solid rgba(255, 0, 0, 0);
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+/*Cartas dos pokemon*/
+
+.pokedex__pokemon-content{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 10%;
+}
+
+.pokemon{
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+    width: 200px;
+}
+
+.pokemon .img-container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+    margin: auto;
+}
+
+.pokemon .img-container img {
+	margin-top: 19px;
+	max-width: 85%;
+    cursor: pointer;
+}
+
+.pokemon .info {
+	margin-top: 20px;
+}
+
+.pokemon .number {
+	background-color: rgba(224, 12, 12, 0.1);
+	border-radius: 10px;
+	font-size: 0.8em;
+	padding: 5px 10px;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    background: rgba(5, 9, 8, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #79caeb;
+    border-radius: 10px;
+    
+}
+
+fieldset{
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+select.Tipagem{
+    background-color: #79caeb;
+    cursor: pointer;
+}
+
+
